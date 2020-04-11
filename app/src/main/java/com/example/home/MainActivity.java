@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-
+                sms.setText("failed");
             }
         });
         stop.setOnClickListener(new View.OnClickListener() {
